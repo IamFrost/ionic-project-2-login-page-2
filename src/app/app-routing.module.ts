@@ -8,8 +8,16 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'login-page-one',
     pathMatch: 'full'
+  },
+  {
+    path: 'login-page-one',
+    loadChildren: () => import('./login-page-one/login-page-one.module').then( m => m.LoginPageOnePageModule)
+  },
+  {
+    path: 'login-page-two',
+    loadChildren: () => import('./login-page-two/login-page-two.module').then( m => m.LoginPageTwoPageModule)
   },
 ];
 

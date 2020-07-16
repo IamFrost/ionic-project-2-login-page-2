@@ -1,0 +1,16 @@
+.vertical-align-1{
+
+    width: auto;
+    height: auto;
+    vertical-align: 50%;
+}
+
+.something-semantic {
+    display: table;
+    width: 100%;
+  }
+  .something-else-semantic {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }

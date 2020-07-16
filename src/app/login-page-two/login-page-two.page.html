@@ -1,0 +1,48 @@
+<ion-grid style="height: 100%;" class="something-semantic">
+  <ion-row class="something-else-semantic">
+    <ion-col size-md="6" offset-md="3" class="something-semantic">
+      <ion-card style="height: 100%;" class="something-else-semantic">
+        <ion-card-header>
+          <ion-card-title>
+
+          </ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-item>
+            <ion-thumbnail slot="start">
+              <!-- <ion-img [src]="../../assets/logos/logo1.png"></ion-img> -->
+              <img src="../../assets/logos/logo1.png">
+            </ion-thumbnail>
+            <ion-text style="color:#7fba00; font-weight: bolder; ">Satcom</ion-text>
+          </ion-item>
+          <ion-item>
+            <ion-text>user</ion-text>
+            <ion-text>: suman@satcombd.com</ion-text>
+          </ion-item>
+          <ion-item>
+            <ion-text>Enter password</ion-text>
+          </ion-item>
+          <ion-item hidden>
+            <ion-text style="color: red;">
+              Email/Username or Password is wrong.
+            </ion-text>
+          </ion-item>
+          <ion-item>
+            <ion-input placeholder="Password"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-checkbox color="secondary" checked slot="start"></ion-checkbox>
+            <ion-label class="ion-margin-left">Remember me</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-text><a>Forgot Password?</a></ion-text>
+          </ion-item>
+          <div class="ion-margin-vertical ion-text-center">
+            <ion-button fill="solid" expand="block" color="secondary" size="small"
+              style="text-transform: none; width:auto;">Sign in</ion-button>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
